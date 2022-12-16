@@ -1,0 +1,5 @@
+<button (click)="onClick()">generate random photo</button>
+<br>
+<div *ngIf="url">
+    <img [src]="url" alt="random-photo" style="width:300px;">
+</div>
